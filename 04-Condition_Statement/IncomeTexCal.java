@@ -15,5 +15,8 @@ public class IncomeTexCal {
              tex=(int) (income*0.30);
         }
         System.out.println("Your tex: " + tex);
+
+        sc.close();
     }
+    
 }

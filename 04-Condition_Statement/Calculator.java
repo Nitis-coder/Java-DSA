@@ -19,5 +19,6 @@ public class Calculator {
             case '/' :System.out.println(a/b);
             default :System.out.println("Wrong Operant");
         }  
+        sc.close();
     }
 }

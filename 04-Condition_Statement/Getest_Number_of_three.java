@@ -18,5 +18,6 @@ public class Getest_Number_of_three {
         }else{
             System.out.println("Largest Number: "+thired);
         }
+        sc.close();
     }
 }

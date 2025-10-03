@@ -1,5 +1,22 @@
 public class Q3 {
+
+    public static void buysell(int prices[]){
+        int buyprices=Integer.MAX_VALUE;
+        int maxprofit=0;
+
+         for(int i=0;i<prices.length;i++){
+            if(buyprices < prices[i]){
+                int profit = prices[i]-buyprices; // today`s profit
+                maxprofit = Math.max(profit , maxprofit);
+          
+            }else{
+                buyprices =prices[i];
+            }
+        }
+        System.out.println(maxprofit);
+    }
     public static void main(String[] args) {
-    System.out.println("nk");
-}
+        int prices[]={7,1,5,3,6,4};
+        buysell(prices);
+    }
 }

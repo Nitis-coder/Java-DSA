@@ -42,7 +42,6 @@ public class Merge{
         for(i=Si, k=0; k<temp.length; k++, i++){
            arr[i]=temp[k];
         }
-
     }
     public static void main(String args[]){
         int arr[] = {1,3,7,4,8,5,4};
